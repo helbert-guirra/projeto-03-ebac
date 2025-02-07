@@ -1,0 +1,70 @@
+body {
+    font-family: Roboto, sans-serif;
+}
+
+.navbar {
+    background-color: #c69c6d; /* Dourado suave */
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: #fff;
+    color: #c69c6d; /* Dourado suave */
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-cardapio .nav-link.active:hover {
+    color: #fff;
+}
+
+.navbar-toggler {
+    background-color: #f9f2e7; /* Tom suave de creme */
+}
+
+.section-title {
+    font-family: Pacifico, cursive;
+}
+
+#sobre-o-restaurante, #cardapio {
+    background-color: #f9f2e7; /* Creme suave */
+}
+
+.text-colored {
+    color: #c69c6d; /* Dourado suave */
+}
+
+.nav-cardapio .nav-link.active,
+#fale-conosco button {
+    background-color: #c69c6d; /* Dourado suave */
+    color: #fff;
+}
+
+.nav-cardapio .nav-link:hover {
+    color: #c69c6d; /* Dourado suave */
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+.cardapio-container {
+    display: none;
+    margin-top: 0;
+    margin-left: 20px; /* Espaço entre o botão e o cardápio */
+}
+
+.btn-container {
+    display: flex;
+    align-items: center; /* Alinha o botão e o cardápio verticalmente */
+}
+
+@media (max-width: 767px) {
+    .carousel-item img {
+        height: 280px;
+    }
+}
